@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "run-sample": "deno run --allow-run --allow-read tasks/bootstrap.ts"
+  },
+  "imports": {
+    "@concurrent-world/client": "npm:@concurrent-world/client@^6.1.4"
+  }
+}
