@@ -68,7 +68,13 @@ git clone https://github.com/jiftechnify/a-little-deeper-dive-into-concrnt.git
 Cocnrntアカウントのサブキーは、concrnt.worldにサブキーでログインした上で[設定 → ID管理](https://concrnt.world/settings/identity)ページから取得してください。
 
 設定例:
-![サブキー設定例](./doc_imgs/subkey_setting.png)
+```bash
+# メインアカウント(普段使っているアカウント)のサブキー
+CONCRNT_SUBKEY_MAIN="concurrent-subkey xxxxxxxx... con107uc3dgc99t2htuw2u33d5ra7cu5wjqj8tg8dj@c.c-stellar.net かすてらふぃ"
+
+# Bot用アカウントのサブキー
+CONCRNT_SUBKEY_BOT="concurrent-subkey xxxxxxxx... con1fsxlj2djnz9dssf7q05zng2ecut094k5qmkvmj@c.c-stellar.net かすてらbot"
+```
 
 
 <details>
